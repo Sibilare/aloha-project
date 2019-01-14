@@ -99,7 +99,8 @@ body {
     font-style: italic;
 }
 
-
+/* Global settings
+         */
 
 .container {
     max-width: 1240px;
@@ -126,6 +127,9 @@ p {
     font-size: 12px;
 }
 
+/*  Main banner on webpage 
+       font and image sizing colouring  */
+
 .banner {
     height: 900px;
     background: url(../images/banner-girl.png) no-repeat center, url("../images/flower-bkgd.jpg");
@@ -147,7 +151,7 @@ p {
 
 /* Menu base Styles */
 
-/* Main menu */
+/*  Header Navigation bar */
 
  
 .menu-bar {
@@ -189,7 +193,7 @@ p {
 }
 
 /*
-Catergories
+Unordered list of catergories available from Aloha
 */
 
 .category ul li{
@@ -198,9 +202,17 @@ text-decoration: none;
 list-style: none;
 
 }
+
+.catergory div img{
+    margin: 0;
+    padding: 0;
+    display: 50%;
+}
+
 .category div ul li img{
     margin: 0;
     padding: 0;
+    display: 25%;
 }
 
 /* F L E X  S T Y L E S*/
@@ -209,7 +221,8 @@ list-style: none;
 
 }
 
-/* Main Menu style */ 
+/* Header Navigation bar
+        F L E X              */ 
 
 .menu-bar {
 
@@ -239,8 +252,6 @@ list-style: none;
 }
     /*
     flex: 1 1 0;
-    
-}
 */
 
 .menu-bar cart {
@@ -248,7 +259,11 @@ list-style: none;
     flex: 1 2 30%;
 }
 
-/* Category flex */
+/*  banner headers 
+        F L E X     */
+
+/* Unordered list of catergories available from Aloha
+        F L E X        */
 
 .category{
     display: flex;
@@ -271,7 +286,18 @@ list-style: none;
     display: flex;
 }
 
-/* footer flex */
+/* products with pricing
+    F L E X */
+
+
+
+/* input section for email subscription
+    F L E X */
+
+
+
+/* Footer
+     F L E X  */
 
 .footer-container {
     display:flex;
