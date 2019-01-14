@@ -1,0 +1,285 @@
+* {
+    margin: 0;
+    border: 0;
+}
+
+body {
+    background-color: white;
+    font-family: "Raleway";
+    font-family: 'Roboto', sans-serif;
+}
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-LightItalic.eot');
+    src: url('../fonts/Raleway-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Raleway-LightItalic.woff') format('woff'),
+        url('../fonts/Raleway-LightItalic.ttf') format('truetype'),
+        url('../fonts/Raleway-LightItalic.svg#Raleway-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-MediumItalic.eot');
+    src: url('../fonts/Raleway-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Raleway-MediumItalic.woff') format('woff'),
+        url('../fonts/Raleway-MediumItalic.ttf') format('truetype'),
+        url('../fonts/Raleway-MediumItalic.svg#Raleway-MediumItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-Light.eot');
+    src: url('../fonts/Raleway-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Raleway-Light.woff') format('woff'),
+        url('../fonts/Raleway-Light.ttf') format('truetype'),
+        url('../fonts/Raleway-Light.svg#Raleway-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-Medium.eot');
+    src: url('../fonts/Raleway-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Raleway-Medium.woff') format('woff'),
+        url('../fonts/Raleway-Medium.ttf') format('truetype'),
+        url('../fonts/Raleway-Medium.svg#Raleway-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('../fonts/PlayfairDisplay-Regular.eot');
+    src: url('../fonts/PlayfairDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PlayfairDisplay-Regular.woff') format('woff'),
+        url('../fonts/PlayfairDisplay-Regular.ttf') format('truetype'),
+        url('../fonts/PlayfairDisplay-Regular.svg#PlayfairDisplay-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('../fonts/PlayfairDisplay-Italic.eot');
+    src: url('../fonts/PlayfairDisplay-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PlayfairDisplay-Italic.woff') format('woff'),
+        url('../fonts/PlayfairDisplay-Italic.ttf') format('truetype'),
+        url('../fonts/PlayfairDisplay-Italic.svg#PlayfairDisplay-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('../fonts/PlayfairDisplay-Bold.eot');
+    src: url('../fonts/PlayfairDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PlayfairDisplay-Bold.woff') format('woff'),
+        url('../fonts/PlayfairDisplay-Bold.ttf') format('truetype'),
+        url('../fonts/PlayfairDisplay-Bold.svg#PlayfairDisplay-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('../fonts/PlayfairDisplay-BoldItalic.eot');
+    src: url('../fonts/PlayfairDisplay-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PlayfairDisplay-BoldItalic.woff') format('woff'),
+        url('../fonts/PlayfairDisplay-BoldItalic.ttf') format('truetype'),
+        url('../fonts/PlayfairDisplay-BoldItalic.svg#PlayfairDisplay-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+
+.container {
+    max-width: 1240px;
+    margin: 0 auto; 
+}
+
+h1 {
+    font-size: 24px;
+    background-color: white;
+    color: black;
+}
+
+h2 {
+    font-size: 18px;
+    color: black;
+}
+
+a {
+    color: #e2574c;
+
+}
+
+p {
+    font-size: 12px;
+}
+
+.banner {
+    height: 900px;
+    background: url(../images/banner-girl.png) no-repeat center, url("../images/flower-bkgd.jpg");
+
+}
+
+.banner p {
+    font-size: 24px;
+    text-align: center;
+    color: white;
+}
+
+.banner h2 {
+    font-size: 36px;
+    color: white;
+    text-align: center;
+    background-color: none;
+}
+
+/* Menu base Styles */
+
+/* Main menu */
+
+ 
+.menu-bar {
+
+} 
+
+.menu-bar .logo {
+    padding:0;
+    margin:0;
+    height: auto;
+ 
+
+}
+.logo img{
+    width:100px;
+}
+
+.menu-bar ul {
+    list-style: none;
+    padding: 30;
+
+}
+
+.menu-bar a {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    display: block;
+    margin:20px;
+    padding:20px;
+}
+
+.menu-bar a:hover{
+    background-color:grey;
+}
+
+.menu-bar .cart {
+ 
+}
+
+/*
+Catergories
+*/
+
+.category ul li{
+
+text-decoration: none;
+list-style: none;
+
+}
+.category div ul li img{
+    margin: 0;
+    padding: 0;
+}
+
+/* F L E X  S T Y L E S*/
+
+@media screen and (max-width: 600){
+
+}
+
+/* Main Menu style */ 
+
+.menu-bar {
+
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    margin: 40px;
+    align-items: center;
+}
+
+.menu-bar logo{
+    display:flex;
+    flex: 1 2 30%;
+    width: 100px;
+}
+.menu-bar menu-items{
+    flex: 1 2 40%;
+}
+.menu-bar ul{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: center; 
+   
+}
+.menu-bar li {
+    display:flex;
+}
+    /*
+    flex: 1 1 0;
+    
+}
+*/
+
+.menu-bar cart {
+    display:flex;
+    flex: 1 2 30%;
+}
+
+/* Category flex */
+
+.category{
+    display: flex;
+    flex:row wrap;
+    width: 100%;
+
+}
+
+.category div img{
+    display:flex;
+    flex-basis: 50%;
+}
+
+.category ul {
+    display:flex;
+    flex-basis: 25%;
+}
+
+.category ul li img{
+    display: flex;
+}
+
+/* footer flex */
+
+.footer-container {
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: flex-start;
+}
+.social {
+    display:flex;
+    flex-flow:column wrap;
+    justify-content: flex-end;
+}
