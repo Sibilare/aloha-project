@@ -201,22 +201,28 @@ p {
 Unordered list of catergories available from Aloha
 */
 
+.category{
+    margin:0;
+    padding: 0;
+    
+}
+
 .category ul li{
     text-decoration: none;
     list-style: none;
 
 }
 
-.catergory div img{
+.catergory .mens, .womens img{
     margin: 0;
     padding: 0;
-    display: 50%;
+
 }
 
 .category div ul li img{
     margin: 0;
     padding: 0;
-    display: 25%;
+
 }
 
 /* F L E X  S T Y L E S*/
@@ -272,23 +278,27 @@ Unordered list of catergories available from Aloha
 .category{
     display: flex;
     flex:row wrap;
-    width: 100%;
 
 }
 
-.category div img{
+.category .mens, .womens img{
+    flex: row wrap;
+    max-width: 95%;
+    max-height: 95%;
     display:flex;
-    flex-basis: 50%;
+
 }
 
 .category ul {
-    display:flex;
-    flex: row wrap;
+    display: flex;
     flex-basis: 25%;
+
 }
 
 .category ul li img{
     display: flex;
+    flex: row wrap;
+    max-width: 90%;
 }
 
 /* products with pricing
