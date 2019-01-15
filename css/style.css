@@ -153,11 +153,11 @@ p {
 
 /*  Header Navigation bar */
 
- 
+ /*
 .menu-bar {
 
 } 
-
+*/
 .menu-bar .logo {
     padding:0;
     margin:0;
@@ -188,18 +188,22 @@ p {
     background-color:grey;
 }
 
+/*
 .menu-bar .cart {
  
 }
+
+*/
+
+
 
 /*
 Unordered list of catergories available from Aloha
 */
 
 .category ul li{
-
-text-decoration: none;
-list-style: none;
+    text-decoration: none;
+    list-style: none;
 
 }
 
@@ -279,6 +283,7 @@ list-style: none;
 
 .category ul {
     display:flex;
+    flex: row wrap;
     flex-basis: 25%;
 }
 
