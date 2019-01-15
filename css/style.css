@@ -105,6 +105,7 @@ body {
 .container {
     max-width: 1240px;
     margin: 0 auto; 
+    padding: 0;
 }
 
 h1 {
@@ -127,6 +128,15 @@ p {
     font-size: 12px;
 }
 
+.products{
+    text-align: center;
+}
+
+img {
+
+    max-width: 100%;
+    height: auto;
+}
 /*  Main banner on webpage 
        font and image sizing colouring  */
 
@@ -197,30 +207,21 @@ p {
 
 
 
+
+/* products with pricing
+   global settings */
+.products h2 {
+    color: red;
+}
+
 /*
-Unordered list of catergories available from Aloha
+ catergories available from Aloha
 */
-
-.category{
+.about {
+    text-align: center;
+}
+.category img{
     margin:0;
-    padding: 0;
-    
-}
-
-.category ul li{
-    text-decoration: none;
-    list-style: none;
-
-}
-
-.catergory .mens, .womens img{
-    margin: 0;
-    padding: 0;
-
-}
-
-.category div ul li img{
-    margin: 0;
     padding: 0;
 
 }
@@ -272,39 +273,40 @@ Unordered list of catergories available from Aloha
 /*  banner headers 
         F L E X     */
 
-/* Unordered list of catergories available from Aloha
+/*  catergories available from Aloha
         F L E X        */
 
 .category{
     display: flex;
+    align-content:flex-start;
     flex:row wrap;
 
 }
 
-.category .mens, .womens img{
-    flex: row wrap;
-    max-width: 95%;
-    max-height: 95%;
+.category2{
+    display: flex;
+    align-content:flex-start;
+    flex:row wrap;
+
+}
+
+.category2 img{
+    margin: 0px;
+    padding:0px;
     display:flex;
 
 }
 
-.category ul {
-    display: flex;
-    flex-basis: 25%;
-
-}
-
-.category ul li img{
-    display: flex;
-    flex: row wrap;
-    max-width: 90%;
-}
 
 /* products with pricing
     F L E X */
 
+.products div {
 
+    display: flex;
+    flex-direction: row;
+
+}
 
 /* input section for email subscription
     F L E X */
@@ -317,10 +319,9 @@ Unordered list of catergories available from Aloha
 .footer-container {
     display:flex;
     flex-flow:row wrap;
-    justify-content: flex-start;
+    justify-content: space-between;
 }
 .social {
     display:flex;
     flex-flow:column wrap;
-    justify-content: flex-end;
 }
