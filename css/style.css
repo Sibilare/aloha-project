@@ -235,9 +235,27 @@ img {
   text-align: center;
 }
 
+.image-group {
+  font-size: 35px;
+  text-decoration: none;
+  list-style: none;
+
+}
+
 .image-group li{
   text-align: center;
   padding-top: 80px;
+  text-decoration-style: none;
+}
+.link-cat:link{
+  color: white;
+  text-decoration: none;
+  text-decoration-style: none;
+
+}
+
+.link-cat:visited{
+  color: white;
 }
 
 .mens {
