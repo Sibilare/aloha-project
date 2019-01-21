@@ -6,3 +6,5 @@ This is a  project to showcase HTML and CSS to buile a responsive wesite as part
 - CSS
 - Responsive design (for Mobile and desktop)
 - Git Hub
+- Jquery
+- Flexbox
