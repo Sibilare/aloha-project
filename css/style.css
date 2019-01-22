@@ -2,14 +2,14 @@
   margin: 0;
   border: 0;
   box-sizing: content-box;
-  font-size: 16px;
 }
 
 body {
   background-color: white;
   font-family: "Raleway";
-  font-family: "Roboto", sans-serif;
+  font-family: "Playfair display";
   overflow-x: hidden;
+  font-size: 16px;
 }
 
 @font-face {
@@ -207,7 +207,7 @@ img {
 }
 
 .menu-bar .cart {
-  width: 100px;
+  width:100px;
   height: auto;
 }
 
@@ -221,18 +221,22 @@ img {
 }
 
 .image-group {
-  font-size: 35px;
   text-decoration: none;
   list-style: none;
 }
 
 .image-group li{
   text-align: center;
-  padding-top: 80px;
+  font-size: 35px;
+  margin-top: 70px;
   text-decoration-style: none;
 }
 
-.image-group div li:focus, input:focus{
+.image-group li a:hover {
+  color: #b64036;
+}
+
+.image-group li a:focus, input:focus{
   text-align: center;
   padding-top: 80px;
   text-decoration-style: none;
@@ -241,14 +245,14 @@ img {
 }
 
 .link-cat:link{
-  color: #969696;
+  color: white;
   text-decoration: none;
   text-decoration-style: none;
 
 }
 
 .link-cat:visited{
-  color: #969696;
+  color: white;
 }
 
 .mens {
@@ -343,9 +347,16 @@ flex: 1 0 48%;
 /*
  Shop catergories available from Aloha
 */
-.about {
+.about{
   text-align: center;
-}
+  font-size: 30px;
+
+  }
+  .about p{
+    font-size: 20px;
+  }
+
+
 /* Email subscription */
 
 .waves {
