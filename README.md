@@ -8,3 +8,4 @@ This is a  project to showcase HTML and CSS to buile a responsive wesite as part
 - Git Hub
 - Jquery
 - Flexbox
+- Input buttons

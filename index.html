@@ -34,10 +34,10 @@
           <img src="images/aloha-logo.svg" alt="Aloha Logo" />
         </div>
         <ul class="menu-items">
-          <li><a href="#">About</a></li>
-          <li><a href="#">Shop</a></li>
-          <li><a href="#">Featured</a></li>
-          <li><a href="#">Updates</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#shop">Shop</a></li>
+          <li><a href="#featured">Featured</a></li>
+          <li><a href="#updates">Updates</a></li>
         </ul>
 
         <div class="cart">
@@ -53,7 +53,7 @@
 
     <!-- Main banner on webpage -->
 
-    <section class="banner">
+    <section class="banner" id="about">
       <p>New Collection</p>
       <h2>Spring/Summer 2019</h2>
     </section>
@@ -74,7 +74,7 @@
 
     <!-- Shop catergories available from Aloha-->
 
-    <section class="container">
+    <section class="container" id="shop">
       <div class="image-group">
 
         <div class="mens">
@@ -106,13 +106,13 @@
 
     <!-- products with pricing -->
 
-    <section class="product-header">
+    <section class="product-header" id="featured">
       <h1><em>Most-Loved</em> <strong>Products</strong></h1>
 
       <div class="prod-carousel">
         <!-- </div> data-flickity="{ &quot;wrapAround:&quot; true }" -->
 
-        <span class="product">
+        <span class="product" id="Featured">
           <img src="images/checked-stretch-dress.jpg"
             alt="Chekered dresses"
           />
@@ -161,7 +161,7 @@
 
     <!-- input section for email subscription-->
 
-    <section class="container">
+    <section class="container" id="updates">
       <img class="waves" src="images/wave-bkgd.jpg" />
       <div class="wavestext">
         <h1>Sign-up for Updates</h1>
@@ -173,7 +173,7 @@
           upcoming sales, and get free style tips from our blog. Unsubcribe at
           any time
         </p>
-        <form class="subscribtion">
+        <form class="updates">
           <input class= "emailinput" type="text" placeholder="Email address" name="mail"
                   style= "height: 20px;" >
           <button class="ebutton" type="submit" form="form1" value="Submit">Submit</button>
@@ -207,7 +207,7 @@
       <script src="plugins/jquery-3.3.1.min.js"></script>
       <script src="plugins/flickity.pkgd.min.js"></script>
       <script src="JS/start.js"></script>
-   
+
     </div>
   </body>
 </html>

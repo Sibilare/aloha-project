@@ -1,10 +1,8 @@
-
-
 $(".prod-carousel").flickity({
   cellAlign: 'left',
   contain: true,
-  imageLoaded: true,
-  prevNextButtons: false,
+  lazyload: true,
+  prevNextButtons: true,
   wrapAround:true
   
 });
