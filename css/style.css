@@ -1,16 +1,4 @@
-* {
-  margin: 0;
-  border: 0;
-  box-sizing: content-box;
-}
 
-body {
-  background-color: white;
-  font-family: "Raleway";
-  font-family: "Playfair display";
-  overflow-x: hidden;
-  font-size: 16px;
-}
 
 @font-face {
   font-family: "Raleway";
@@ -113,7 +101,8 @@ body {
          */
 
 html {
-          scroll-behavior: smooth;}
+          scroll-behavior: smooth;
+}
 .container {
   max-width: 1240px;
   margin: 0 auto;
@@ -149,6 +138,9 @@ img {
 /*  Main banner on webpage 
        font and image sizing colouring  */
 
+#main[tabindex="-1"]:focus {
+        outline: 0;
+}
 .banner {
   height: 900px;
   background: url(../images/banner-girl.png) no-repeat center,
@@ -213,8 +205,6 @@ img {
   height: auto;
 }
 
-
-
 /* products with pricing
    global settings */
 
@@ -259,7 +249,7 @@ img {
 
 .mens {
 
-background: url(/images/mens-category.jpg) center center no-repeat;
+background: url(../images/mens-category.jpg) center center no-repeat;
 height: 200px;
 max-width: 100%;
 position: relative;
@@ -273,7 +263,7 @@ flex: 1 0 48%;
 }
 .glasses {
 
-  background: url(/images/glasses-category.jpg) center center no-repeat;
+  background: url(../images/glasses-category.jpg) center center no-repeat;
   height: 200px;
   max-width: 100%;
   position: relative;
@@ -283,10 +273,10 @@ flex: 1 0 48%;
   border-color: white;
   flex: 1 0 24%;
   
-  }
+}
 .trends {
 
-  background: url(/images/trends-category.jpg) center center no-repeat;
+  background: url(../images/trends-category.jpg) center center no-repeat;
   height: 200px;
   max-width: 100%;
   position: relative;
@@ -299,7 +289,7 @@ flex: 1 0 48%;
 }
 .sales {
 
-  background: url(/images/sale-category.jpg) center center no-repeat;
+  background: url(../images/sale-category.jpg) center center no-repeat;
   height: 200px;
   max-width: 100%;
   position: relative;
@@ -312,7 +302,7 @@ flex: 1 0 48%;
 }
 .bags {
 
-  background: url(/images/bags-category.jpg) center center no-repeat;
+  background: url(../images/bags-category.jpg) center center no-repeat;
   height: 200px;
   max-width: 100%;
   position: relative;
@@ -325,7 +315,7 @@ flex: 1 0 48%;
 }
 .womens {
 
-  background: url(/images/womens-category.jpg) center center no-repeat;
+  background: url(../images/womens-category.jpg) center center no-repeat;
   height: 200px;
   max-width: 100%;
   position: relative;
@@ -353,10 +343,10 @@ flex: 1 0 48%;
   text-align: center;
   font-size: 30px;
 
-  }
-  .about p{
+}
+.about p{
     font-size: 20px;
-  }
+}
 
 
 /* Email subscription */
@@ -450,11 +440,27 @@ flex: 1 0 48%;
   justify-content: flex-end;
   flex: 1 2 25%;
 }
+.screen-reader-text {
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+
+.screen-reader-text:focus {
+  clip: auto !important;
+  display: block;
+  height: auto;
+  left: 5px;
+  top: 5px;
+  width: auto;
+  z-index: 100000; /* above all content */
+}
 
 /*  catergories available from Aloha
         F L E X        */
 
-        
 .image-group{
   display: flex;
   flex-flow: row wrap;
@@ -463,18 +469,6 @@ flex: 1 0 48%;
   
 }
 
-
-/* products with pricing
-    F L E X  */
-
-.prod-carousel {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
 
 /* input section for email subscription
     F L E X */
