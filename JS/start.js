@@ -3,7 +3,8 @@ $(".prod-carousel").flickity({
   contain: true,
   imagesloaded: true,
   prevNextButtons: true,
-  wrapAround: true
+  wrapAround: true,
+  groupcells: true
 });
 
 $(function() {

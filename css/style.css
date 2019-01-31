@@ -1,5 +1,3 @@
-
-
 @font-face {
   font-family: "Raleway";
   src: url("../fonts/Raleway-LightItalic.eot");
@@ -215,6 +213,8 @@ img {
 .image-group {
   text-decoration: none;
   list-style: none;
+  text-align:center;
+  position:relative;
 }
 
 .image-group li{
@@ -250,40 +250,31 @@ img {
 .mens {
 
 background: url(../images/mens-category.jpg) center center no-repeat;
-height: 200px;
 max-width: 100%;
-position: relative;
-text-align: center;
+height: 200px;
 align-items: center;
 background-size: cover, contain;
-border: 4px solid;
-border-color: white;
+border: 4px solid white;
 flex: 1 0 48%;
 
 }
 .glasses {
 
   background: url(../images/glasses-category.jpg) center center no-repeat;
-  height: 200px;
   max-width: 100%;
-  position: relative;
-  text-align: center;
+  height: 200px;
   background-size: cover, contain;
-  border: 4px solid;
-  border-color: white;
+  border: 4px solid white;
   flex: 1 0 24%;
   
 }
 .trends {
 
   background: url(../images/trends-category.jpg) center center no-repeat;
-  height: 200px;
   max-width: 100%;
-  position: relative;
-  text-align: center;
+  height: 200px;
   background-size: cover, contain;
-  border: 4px solid;
-  border-color: white;
+  border: 4px solid white;
   flex: 1 0 24%;
     
 }
@@ -292,11 +283,8 @@ flex: 1 0 48%;
   background: url(../images/sale-category.jpg) center center no-repeat;
   height: 200px;
   max-width: 100%;
-  position: relative;
-  text-align: center;
   background-size: cover, contain;
-  border: 4px solid;
-  border-color: white;
+  border: 4px solid white;
   flex: 1 0 24%;
       
 }
@@ -305,11 +293,8 @@ flex: 1 0 48%;
   background: url(../images/bags-category.jpg) center center no-repeat;
   height: 200px;
   max-width: 100%;
-  position: relative;
-  text-align: center;
   background-size: cover, contain;
-  border: 4px solid;
-  border-color: white;
+  border: 4px solid white;
   flex: 1 0 24%;
         
 }
@@ -319,10 +304,8 @@ flex: 1 0 48%;
   height: 200px;
   max-width: 100%;
   position: relative;
-  text-align: center;
   background-size: cover, contain;
-  border: 4px solid;
-  border-color: white;
+  border: 4px solid white;
   flex: 1 0 48%;
   
 }
@@ -334,20 +317,16 @@ flex: 1 0 48%;
 .product {
   width: 50%;
 }
-
-
 /*
  Shop catergories available from Aloha
 */
 .about{
   text-align: center;
   font-size: 30px;
-
 }
 .about p{
     font-size: 20px;
 }
-
 
 /* Email subscription */
 
@@ -533,9 +512,9 @@ flex: 1 0 48%;
 .menu-items a {
   text-decoration: none;
   text-align: center;
-  color:#e2574c;
-  display: inline-block;
+  color:#a0403a;
   margin: 0px;
+  display: inline-block;
   padding: 10px;
   text-transform: uppercase;
 }
