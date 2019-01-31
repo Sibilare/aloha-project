@@ -144,6 +144,7 @@ img {
   background: url(../images/banner-girl.png) no-repeat center,
     url("../images/flower-bkgd.jpg");
   position: relative;
+  color: white;
 }
 .banner p {
   margin-left: auto;
@@ -154,7 +155,6 @@ img {
   width: 8em;
   font-size: 24px;
   text-align: center;
-  color: white;
 }
 
 .banner h2 {
