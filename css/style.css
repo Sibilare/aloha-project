@@ -250,7 +250,7 @@ input {
   height: 25px;
 }
 
-.emailinput {
+.email-input {
   height: 20px;
 }
 
@@ -338,11 +338,18 @@ input {
   text-align: center;
 }
 
-.image-group {
-  text-decoration: none;
+
+.link-cat {
+
+  font-size: 35px;
+}
+.mens, .glasses, .trends, .womens, .bags, .sales{
+
+  padding-top:20%;
   list-style: none;
   text-align: center;
-  position: relative;
+  
+
 }
 
 .image-group li {
@@ -359,7 +366,6 @@ input {
 .image-group li a:focus,
 input:focus {
   text-align: left;
-  /* padding-top: 80px; */
   text-decoration-style: none;
   outline: none;
   border: 1px dotted white;
@@ -474,14 +480,14 @@ input:focus {
   clip: rect(300px, 0px, 0px, 0px);
 }
 
-.wavestext {
+.waves-text {
   color: w#969696;
   text-align: center;
   margin-top: -200px;
   margin-bottom: 200px;
 }
 
-.wavestext h1 {
+.waves-text h1 {
   color: #969696;
 }
 
@@ -492,7 +498,7 @@ input:focus {
 }
 
 
-.emailinput {
+.email-input {
   font-size: 14px;
   width: 60%;
   outline: none;
@@ -663,7 +669,7 @@ input:focus {
     max-width: 600px;
   }
 
-  .emailinput {
+  .email-input {
     width: 40%;
   }
 
